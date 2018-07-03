@@ -1,0 +1,93 @@
+#loginBox {	/*로그인 박스 div*/
+   width: 300px;
+   height: 250px;
+   margin: auto;
+   text-align: center;
+   padding-top: 50px;
+}
+	
+#loginForm {	/*로그인 폼*/
+   text-align: center;
+   padding: 20px;
+}
+
+.text {
+   font-size: 13pt;
+   padding: 5px;
+   width: 50px;
+}
+
+.inputText {
+   border: 0.5px solid black;
+   padding: 5px;
+   width: 150px;
+}
+	/*버튼*/
+.btn {
+   width: 130px;
+   height: 40px;
+   background-color: white;
+   border: 0.5px solid black;
+   font-size: 13pt;
+}
+	/*버튼 hover시*/
+.btn:hover {
+   cursor: pointer;
+   color: red;
+}
+	/*header의 h1*/
+h1{
+  text-align: center;
+}
+	/*공지*/
+#notice{
+  padding-top: 100px;
+  text-align: center;
+}
+
+header{
+  background-image: url('../img/header.jpg');
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-top: solid black 0.5px;
+  border-bottom: solid black 0.5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+	/*저작권 표시*/
+footer{
+  bottom:5px;
+  width:100%;
+  border-top: solid black 0.5px;
+  border-bottom: solid black 0.5px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  background-image: url('../img/header.jpg');
+}
+#hand_img{
+  width: 150px;
+  height: 150px;
+}
+
+#notice_table{
+  margin: auto;
+  border: 0.5px solid black;
+  padding: 10px;
+  background-image: url('../img/pic01.jpg');
+  color: black;
+}
+
+#notice_content{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}

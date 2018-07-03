@@ -1,0 +1,31 @@
+header{	/*위의 header 부분*/
+  background-image: url('../img/header.jpg');
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-top: solid black 0.5px;
+  border-bottom: solid black 0.5px;
+}
+/*header의 h1부분 정렬*/
+h1{
+  text-align: center;
+}
+
+#fail_notice{
+	margin-top:100px;
+	text-align:center;
+}
+/*아래의 저작권 표시*/
+footer{
+  bottom:5px;
+  width:100%;
+  border-top: solid black 0.5px;
+  border-bottom: solid black 0.5px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: absolute;
+  font-size: 12px;
+  background-image: url('../img/header.jpg');
+}

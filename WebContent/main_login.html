@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>HAND</title>
+  <link type="text/css" rel="stylesheet" href="css/main_login.css">
+  <!-- favicon 설정 -->
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <!-- 기본적인 제이쿼리, css파일등을 연동 -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+	<script src="js/main_login.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Main title부분으로 사용되는 header 태그 -->
+    <h1>H &nbsp; A &nbsp; N &nbsp; D</h1>
+  </header>
+  <div id="main_back">
+  <!-- 실제 메인 페이지의 보여지는 부분 -->
+    <div id="notice">
+      <!-- 서비스에 대한 설명을 위한 table -->
+      <table id="notice_table">
+        <tr>
+          <td>
+            <!-- 대표 이미지 -->
+            <img src="./img/hand.jpg" alt="hand" id="hand_img" draggable="false">
+          </td>
+          <!-- 서비스 설명 -->
+          <td id="notice_content">HAND service는 Have A Nice Day의<br/>줄임말로써 편리한 기능들을 모아 놓은<br/>차세대 시작 웹페이지 입니다.<br/><br/>시작을 위해서<br/>회원 가입을 진행해 주세요.</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- 로그인을 위한 로그인 폼 작성을 위한 table -->
+    <div id="loginBox">
+      <!-- login을 하기 위해서 login.jsp로 이동 -->
+      <form action="login.jsp" method="post">
+
+      <table id="loginForm">
+        <tr>
+        <!-- ID를 입력 받는 input -->
+          <td class="text">ID: </td>
+          <td><input type="text" id="ID" name="ID" class="inputText" autofocus required></td>
+        </tr>
+        <tr>
+        <!-- password를 입력 받는 input -->
+          <td class="text">Password: </td>
+          <td><input type="password" id="PW" name="PW" class="inputText" required></td>
+        </tr>
+      </table>
+      <br/>
+      <!-- 로그인과 회원가입 창 -->
+      <input type="submit" id="loginBtn" value="로그인" class="btn btn-info">
+      <!-- 회원가입 페이지로 이동 -->
+      <input type="button" id="joinBtn" value="회원가입" class="btn btn-info" onclick="goJoinPage()">
+      </form>
+    </div>
+  </div>
+  <!-- 저작권 표시 -->
+  <footer>ⓒ 2018. (Hyungjin.Jeon) All Rights Reserved.</footer>
+</body>
+
+</html>

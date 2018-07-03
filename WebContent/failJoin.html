@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HAND</title>
+<link type="text/css" rel="stylesheet" href="css/failjoin.css">
+<!-- favicon 설정 -->
+<link rel="shortcut icon" href="./img/favicon.ico">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css" media="screen"
+	title="no title" charset="utf-8">
+<!-- Custom style -->
+<link rel="stylesheet" href="css/style.css" media="screen"
+	title="no title" charset="utf-8">
+<script src="js/failjoin.js"></script>
+</head>
+<!-- 이메일 인증 실패시 나오는 페이지 -->
+<body>
+	<header>
+		<!-- Main title부분으로 사용되는 header 태그 -->
+		<h1>H &nbsp; A &nbsp; N &nbsp; D</h1>
+	</header>
+	<div id="fail_notice">
+		<img alt="" src="./img/email_fail.png"> <br /> <br />
+		<p>메일 인증 실패</p>
+		<p>다시 가입 하려면 버튼을 누르세요.</p>
+		<br />
+		<button onclick="goJoinPage()" class="btn btn-info">확인</button>
+	</div>
+
+	<!-- 저작권 표시 -->
+	<footer>ⓒ 2018. (Hyungjin.Jeon) All Rights Reserved.</footer>
+</body>
+</html>
